@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio | Basavaraj Aili</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo2.png">
+            <a href="https://github.com/BasavarajAili1" target="_blank">Basavaraj Aili</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#top">Contact</a></li>
+        </ul>
+        <button id="contactButton"> Contact Me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am Basavaraj</h5>
+            <h3>An <span>Aspiring Software Engineer</span></h3>
+            <p>
+                Full Stack trainee from Kodnest Technologies, Bangalore
+            </p>
+            <button id="scrollToTopBtn">Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="assets/header-img6.png">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My Expertise</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Java Development</h4>
+                <p>
+                    Crafting robust and scalable Java applications to meet diverse business needs.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>Database</h4>
+                <p>
+                    Designing efficient database solutions to organize and manage critical data effectively.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxs-like'></i></i></div>
+                <h4>Software Testing</h4>
+                <p>
+                    Implementing rigorous testing methodologies to ensure the reliability and quality of software products.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></div>
+                <h4>Frontend Development</h4>
+                <p>
+                    Creating intuitive and visually appealing user interfaces with cutting-edge frontend technologies.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="skills">
+        <!-- <h1>My Skills</h1> -->
+        <div class="cards">
+            <div class="skill-card">
+                <img src="assets/java.svg" alt="">
+                <h5>Java</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/springboot.png" alt="">
+                <h5>Spring Boot</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/hibernate.png" alt="">
+                <h5>Hibernate</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/maven.png" alt="">
+                <h5>Maven</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/postman.png" alt="">
+                <h5>Postman API</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/rest.png" alt="">
+                <h5>REST API</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/python.svg" alt="">
+                <h5>Python</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/django.svg" alt="">
+                <h5>Django</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/html.svg" alt="">
+                <h5>HTML</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/css.svg" alt="">
+                <h5>CSS</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/git.png" alt="">
+                <h5>GIT</h5>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/mysql.svg" alt="">
+                <h5>MySQL</h5>
+            </div>
+            <div class="skill-card">
+                <img src="assets/oracle.png" alt="">
+                <h5>Oracle</h5>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/react.svg" alt="">
+                <h5>ReactJS</h5>
+            </div>
+        </div>
+    </section>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img2.jpg">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+            <p>
+                Basavaraj Aili, an aspiring Software Engineer based in Bangalore, Karnataka, graduated in 2023 with a 
+                Bachelor's of Engineering in Electronics and Communication from Jain College 
+                of Engineering and Technology, Hubli, Karnataka. With a fervent passion for
+                 programming, I seek dynamic opportunities to apply my technical prowess in
+                  coding and software design. Committed to taking on challenges.
+            </p>
+            <p>
+                Proficient in Java, Python, SQL, and more. I am driven to continuously learn and grow in the ever-evolving field of software 
+                 engineering, contributing to the success of innovative organizations.
+            </p>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Projects</h5>
+                <h3>My Portfolio</h3>
+            </div>
+            <button id="resumeButton"><i class='bx bxs-like bx-spin-hover'></i>Resume</button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/project1.jpg">
+                <div class="info">
+                    <h4>Tune Hub Music Web Application</h4>
+                    <p>
+                        Tune Hub Live Music streaming full stack web application.
+                    </p>
+                    <a href="https://github.com/BasavarajAili1/Tune-Hub-Live" target="_blank">View in Github <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/project2.png">
+                <div class="info">
+                    <h4>Smart Electricity Meter Appication</h4>
+                    <p>
+                        An prototype full stack application for electricity recharge.
+                    </p>
+                    <a href="https://github.com/BasavarajAili1/Smart-Electricity-Meter-Web-Application" target="_blank">View in Github <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/project3.jpg">
+                <div class="info">
+                    <h4>Vehicle Detection using OpenCV</h4>
+                    <p>
+                        Python project to detect and count vehicles passing on the road.
+                    </p>
+                    <a href="https://github.com/BasavarajAili1/Vehicle-Detection-Counting-Using-OpenCV" target="_blank">View in Github <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="experience" id="experience">
+        <h5>Experience</h5>
+        <h1>Internship</h1>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    Acquired comprehensive training in Java, Python, Web Technologies, Manual Testing, SQL, Spring Boot, Spring MVC, ORM Tools and SDLC. Through hands-on projects and mentorship from experienced developers, I gained valuable experience in a
+variety of technologies and software development tools. Led the development and execution of 50+ test cases for the KodNest LMS portal, demonstrating proficiency
+in testing methodologies and documentation.
+                </p>
+                <div class="user">
+                    <img src="assets/ex-1.png">
+                    <div class="info">
+                        <h5>Kodnest Technologies</h5>
+                        <p>Bangalore</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    Strengthened expertise in machine learning concepts using Python programming during the internship. Guided a group of talented individuals to collaboratively develop machine learning models, with a highlight
+being the successful implementation of the voice classification project. Coordinated team meetings and training sessions with a positive attitude to ensure a clear understanding of
+project objectives and deliverables, reducing miscommunication and errors by 50%. Received positive feedback from team members and mentors for collaboration and submitting the project
+within the stipulated timeframe
+                </p>
+                <div class="user">
+                    <img src="assets/ex-2.png">
+                    <div class="info">
+                        <h5>Compsoft Technologies</h5>
+                        <p>Bangalore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div class="top" id="top">
+            <div class="logo">
+                <img src="assets/logo2.png">
+                <a href="https://github.com/BasavarajAili1">Basavaraj Aili</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Blog</a></li>
+                <li><a href="mailto:basavarajaili515@gmail.com">Contact</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/basavaraj-aili-2b495b218/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/BasavarajAili1" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/basavaraj.raj_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:basavarajaili515@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <!-- <a href="#"><i class='bx bxl-facebook'></i></a> -->
+                
+                
+                
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made With ❤️ By Basavaraj Aili
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
